@@ -3,32 +3,37 @@
 <head>
 	<title> Eyad's Webpage </title>
 	<meta charset= "UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
 </head>
-<header>
-	<h1> Eyad Qassem </h1>
-	<nav>
-		<ul id="navigation">
-			<li a href="#"> ABOUT </li>
-			<li a href="#"> PORTFOLIO </li>
-			<li a href="#"> CONTACT </li>
-		</ul>
-	</nav>
-</header>
 <body>
-	<h1> About Me </h1>
-	<img src= "" alt="Picture of Eyad" >
-		<p> This is my website to show off my awesome creations to all you prospective employers. 
-		I hope that you find something that interests you in all this mayhem. I am currently a student in the Coding Bootcamp at UNC Chapel Hill. </p>
-			<aside>
-				<p> Connect with Me </p>
-				<a href="https://github.com/ejqassem"> <img src="assets/images/github_Logo.png" alt= "Github Logo" width= "50" height="50" border="0"></a>
-				<a href="https://www.linkedin.com/in/eyad-qassem-b06b23123?trk=nav_responsive_tab_profile"> <img src= "assets/images/linkedin_Logo.png" alt="LinkedIn Logo.png" width="50" height="50" border="0"> </a>
-				<a href="http://stackoverflow.com/users/7218611/ejqassem"> <img src="assets/images/stackoverflow_Logo.png" alt="StackOverFlow Logo" width="50" height="50" border="0"> </a>
-			</aside>
+	<header>
+		<h1 id= "mainHeading"> Eyad Qassem </h1>
+			<nav id="siteNav">
+				<ul>
+					<li><a href="#"> ABOUT </a></li>
+					<li><a href="/portfolio"> PORTFOLIO </a></li> 
+					<li><a href="/contact"> CONTACT </a></li>
+				</ul>
+			</nav>
+	</header>
+	<main id="content">
+		<section id="aboutMe">
+			<h2 id="secondHeading"> <strong>About Me </strong></h2>
+			<img src="assets/images/eyad_Qassem.png" alt="Picture of Eyad" class= "aboutMeContent">
+				<p class="aboutMeContent"> This is my website to show off my awesome creations to all you prospective 	employers. I hope that you find something that interests you in all this mayhem. I am currently a student in the Coding Bootcamp at UNC Chapel Hill. </p>
+		</section>
+		<aside id="socialMedia">
+			<h3 id= "socialMediaHeading"> Connect with Me </h3>
+			<a href="https://github.com/ejqassem"> <img src="assets/images/github_Logo.png" alt= "Github Logo" class="socialMediaIcons"></a>
+			<a href="https://www.linkedin.com/in/eyad-qassem-b06b23123?trk=nav_responsive_tab_profile"> <img src= "assets/images/linkedin_Logo.png" alt="LinkedIn Logo.png" class="socialMediaIcons"> </a>
+			<a href="http://stackoverflow.com/users/7218611/ejqassem"> <img src="assets/images/stackoverflow_Logo.png" alt="StackOverFlow Logo" class="socialMediaIcons"> </a>
+		</aside>
+	</main>
+	<footer>
+		<p> © Copyright 2017 Eyad Qassem</p>
+	</footer>
 </body>
-<footer>
-	© Copyright 2017 Eyad Qassem 
-</footer>
 </html>
 
 
