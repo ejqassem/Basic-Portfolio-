@@ -140,6 +140,15 @@ img.projectImages {
 	width: 290px;
 	height: 220px;
 	float: left;
+
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img.projectImages:hover {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
 }
 
 figure {
@@ -158,8 +167,12 @@ figcaption a {
 	color: white;
 }
 
+figcaption a:hover {
+	color: black;
+}
+
 #firstImage {
-	padding-right: 15px;
+	padding-right:15px;
 }
 
 #secondImage {
