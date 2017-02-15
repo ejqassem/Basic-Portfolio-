@@ -35,7 +35,7 @@ header {
 }
 
 #siteNav {
-	margin-left: 455px; 
+	margin-left: 435px; 
 	float: left;
 	overflow: hidden;
 }
@@ -43,9 +43,9 @@ header {
 li {
 	float: left;
 	margin-top: 30px;
-	padding-right: 20px;
+	padding-right: 15px;
 	padding-left: 15px;
-	border-right: 1px solid #dddddd;
+	border-right: 2px solid #dddddd;
 }
 
 li a{
@@ -136,10 +136,100 @@ p.aboutMeContent {
 	padding-bottom: 30px;
 }
 
+img.projectImages {
+	width: 290px;
+	height: 220px;
+	float: left;
+}
+
+figure {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	display: inline-block;
+	position:relative;
+}
+
+figcaption {
+	background-color: #4aaaa5;
+}
+
+figcaption a {
+	text-decoration: none;
+	color: white;
+}
+
+#firstImage {
+	padding-right: 15px;
+}
+
+#secondImage {
+	padding-left: 15px;
+}
+
+#thirdImage {
+	padding-right:15px;
+}
+
+#fourthImage {
+	padding-left:15px;
+}
+
+#fifthImage {
+	padding-right:15px;
+}
+
+#firstCaption {
+	position: absolute;
+	text-align: center;
+	padding-top: 18px;
+	bottom: 60px;
+	width: 275px;
+	height: 50px;
+}
+
+#secondCaption {
+	position: absolute;
+	margin-left:15px;
+	text-align: center;
+	padding-top: 18px;
+	bottom: 60px;
+	width: 275px;
+	height: 50px;
+}
+
+#thirdCaption {
+	position: absolute;
+	text-align: center;
+	padding-top: 18px;
+	bottom: 60px;
+	width: 275px;
+	height: 50px;
+}
+
+#fourthCaption {
+	position: absolute;
+	margin-left:15px;
+	text-align: center;
+	padding-top: 18px;
+	bottom: 60px;
+	width: 275px;
+	height: 50px;
+}
+
+#fifthCaption {
+	position: absolute;
+	text-align: center;
+	padding-top: 18px;
+	bottom: 60px;
+	width: 275px;
+	height: 50px;
+}
+
 #socialMediaHeading {
-	font-size: 150%;
+	font-size: 130%;
 	border-bottom: 3px solid #dddddd;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .socialMediaIcons {
@@ -161,6 +251,7 @@ p.aboutMeContent {
 
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;;
+	font-weight: bold;
 }
 
 h2, h3 {
@@ -180,9 +271,6 @@ main {
 
 footer {
 	position: absolute;
-	right: 0;
-  	bottom: 0;
-  	left: 0;
 	border-top: 10px solid #4aaaa5;
 	clear: both;
 	width: 100%;
