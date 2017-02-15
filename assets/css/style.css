@@ -123,8 +123,8 @@ li a:hover {
 }
 
 img.aboutMeContent {
-	height: 40%;
-	width: 40%;
+	height: 33%;
+	width: 33%;
 	padding-top: 30px;
 	float: left;
 	padding-bottom: 30px;
@@ -172,15 +172,17 @@ body {
 }
 
 main {
-	height: 100vh;
+	min-height: calc(100vh - 170px);
 	background-image: url(../images/natural_Paper.png);
 	min-width: 960px;
+	overflow: auto;
 }
 
 footer {
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	right: 0;
+  	bottom: 0;
+  	left: 0;
 	border-top: 10px solid #4aaaa5;
 	clear: both;
 	width: 100%;
